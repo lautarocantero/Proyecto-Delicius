@@ -19,7 +19,7 @@
                     <input type="password" id="pasword" name="pasword" placeholder="Tu Contraseña">
                     
                     <input type="submit" value="Iniciar Sesión" class="formulario-submit" id="crear">
-                    <input type="button" value="Limpiar" class="formulario-submit" id="limpiar">
+                    
                     <a href="nuevo-cliente">No tienes cuenta? Crea Una!</a>
                     <a href="ingresar-trabajo">Eres un empleado? Click aquí</a>
                 </form>

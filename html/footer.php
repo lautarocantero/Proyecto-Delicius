@@ -10,6 +10,5 @@
         </nav>
         <p class="navegacion-coporight">&copy Delicius</p>
 </footer>
-<!-- <script src="static/js/formulario.js"></script> -->
 </body>
 </html>

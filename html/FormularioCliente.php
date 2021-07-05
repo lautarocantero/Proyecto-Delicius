@@ -30,7 +30,6 @@
 
                     
                     <input type="submit" value="Crear" class="formulario-submit" id="crear">
-                    <input type="button" value="Limpiar" class="formulario-submit" id="limpiar">
                 </form>
         </div>
     </div>
