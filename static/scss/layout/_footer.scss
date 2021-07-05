@@ -1,0 +1,41 @@
+
+.footer{
+    align-items: center;
+    background-color: $cuarternario;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+
+    .footer-navegacion{
+        display: flex;
+        column-gap: 3rem;
+        justify-content: center;
+
+        .link{
+            color: $claro;
+            text-transform: uppercase;
+
+            &:hover{
+                color: $secundario;
+            }
+
+        }
+
+    }
+
+    .navegacion-coporight{
+        color: $secundario;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: 900;
+        text-align: center;
+        padding: 0.1rem;
+
+    }
+
+}

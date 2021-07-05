@@ -1,0 +1,61 @@
+
+.imagen-comida{
+    height: 20vh;
+    width: 20rem;
+    border: 1px solid $primario;
+}
+
+.contenedor-formulario-eliminar{
+    min-height: 80vh !important;
+}
+
+.eliminar-formulario{
+    background-image: url(/proyecto-utn-Delicius/static/img/tirar.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 50vh;
+    margin: 5rem auto;
+    position:relative;
+    width: 80%;
+
+    .eliminar-overlay{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #0000006e, $alpha: 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        .eliminar-subtitulo{
+            color: $claro;
+            font-size: 5rem;
+            font-weight: bolder;
+            font-family: $fuente_delicius;
+        }
+    }
+
+    .formulario-submit{
+        margin: 2rem 0;
+
+        &:hover{
+            background-color: $quinto;
+            color: $claro;
+            cursor: pointer;
+        }
+    }
+
+
+}
+
+.eliminar-comida-formulario,.eliminar-cliente-formulario{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 90%;
+}
+
+

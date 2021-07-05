@@ -1,0 +1,26 @@
+
+.formulario{
+    background-color: $claro;
+    border: 2px solid $primario;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: grid;
+
+    label{
+        color: $cuarternario;
+        font-size: 2rem;
+        font-family: $fuente_delicius;
+        text-transform: uppercase;
+    }
+
+    input{
+        border-radius: 1rem;
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+
+    .formulario-submit{
+        width: 10%;
+    }
+
+}

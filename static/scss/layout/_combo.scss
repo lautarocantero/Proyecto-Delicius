@@ -1,0 +1,32 @@
+
+.combo{
+
+    align-items: center;
+    box-shadow: 0.5rem 0.5rem 1px $especial;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+
+    .combo-imagen{
+        height: 50vh;
+        width: 100%;
+
+    }
+
+    .combo-titulo{
+        color: $oscuro;
+        font-weight: bold;
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    .combo-parrafo{
+        margin: 1rem;
+    }
+
+    .combo-boton{
+        margin: 1rem;
+    }
+
+}

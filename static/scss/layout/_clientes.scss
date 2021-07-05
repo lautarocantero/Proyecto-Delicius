@@ -1,0 +1,52 @@
+
+.clientes{
+
+    background-image: url(/proyecto-utn-Delicius/static/img/familia.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 83vh;
+
+    .cliente-contenedor{
+        background-color: $oscuro;
+        border: 1px solid $claro;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 2rem;
+        min-height: 50vh;
+    }
+
+    .cliente-subtitulo{
+        color: $cuarternario;
+        background-color: $oscuro;
+        font-size: 5rem;
+        font-family: $fuente_delicius;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem;
+    }
+
+    .listado-clientes{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 1rem;
+        column-gap: 1rem;
+        overflow:scroll;
+        padding: 2rem;
+
+        .cliente{
+            background-color: $primario;
+            border-radius: 1rem;
+            padding: 1rem;
+
+            .cliente-item{
+                color: $claro;
+                font-family: $fuente_delicius;
+            }
+        }
+
+    }
+
+
+
+}

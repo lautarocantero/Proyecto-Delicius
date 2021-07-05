@@ -1,0 +1,29 @@
+
+.main{
+
+    
+
+    .main-subtitulo{
+        margin: 0 auto;
+        background-color: $secundario;
+        color: $claro;  //darle forma de poligono
+        clip-path: polygon(0 0, 99% 0, 96% 74%, 4% 75%);
+        // clip-path: polygon(7% 0, 100% 0%, 95% 72%, 0 72%);
+        font-weight: bolder;
+        font-size: 4rem;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 2px $primario;
+        padding: 2rem;
+        width: 50%;
+    }
+
+    .combos-container{
+        margin: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5rem;
+        row-gap: 3rem;
+    }
+
+
+}

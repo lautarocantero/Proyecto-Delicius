@@ -1,0 +1,47 @@
+
+
+.pedidos-subtitulo{
+    color: $cuarternario;
+    background-color: $oscuro;
+    font-size: 5rem;
+    font-family: $fuente_delicius;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+.pedidos{
+    background-image: url(/proyecto-utn-Delicius/static/img/pedido.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 83vh;
+    .pedido-contenedor{
+        background-color: $oscuro;
+        border: 1px solid $claro;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 2rem;
+        min-height: 50vh;
+    }    
+
+}
+
+.listado-pedidos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    overflow:scroll;
+    padding: 2rem;
+    .pedido{
+        background-color: $primario;
+        border-radius: 1rem;
+        padding: 1rem;
+
+        .pedido-item{
+            color: $claro;
+        }
+    }
+
+}

@@ -1,0 +1,127 @@
+
+.crear-comida-formulario,.crear-cliente-formulario{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    
+}
+
+.contenedor-formulario-crear{
+    min-height: 100vh !important;
+}
+
+.form-comida{
+    background-image: url(/proyecto-utn-Delicius/static/img/9.jpg);
+}
+
+.form-cliente{
+    background-image: url(/proyecto-utn-Delicius/static/img/pareja-comiendo.jpeg);
+}
+
+.form-pedido{
+    background-image: url(/proyecto-utn-Delicius/static/img/2.webp);
+}
+
+.form-iniciar-sesion{
+    background-image: url(/proyecto-utn-Delicius/static/img/amigos-comiendo.jpg);
+}   
+
+.form-empleado{
+    background-image: url(/proyecto-utn-Delicius/static/img/turno.jpg);
+}
+
+.form-crear-empleado{
+    background-image: url(/proyecto-utn-Delicius/static/img/cocinando.jpg);
+}
+
+
+
+.crear-formulario{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 50vh;
+    margin: 5rem auto;
+    position:relative;
+    width: 80%;
+
+    .crear-overlay{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #0000006e, $alpha: 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        .crear-subtitulo{
+            color: $claro;
+            font-size: 5rem;
+            font-weight: bolder;
+            font-family: $fuente_delicius;
+        }
+    }
+
+    .formulario-submit{
+        margin: 2rem 0;
+
+        &:hover{
+            background-color: $secundario;
+            color: $quinto;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+.error{
+    background-color: #d64161;
+    border: 1px solid $claro;
+    color: $claro;
+    text-transform: uppercase;
+    padding: 2rem;
+
+    text-align: center;
+
+}
+
+// .crear-formulario-cliente{
+//     background-image: url(/proyecto-utn-Delicius/static/img/pareja-comiendo.jpeg);
+//     border-radius: 1rem;
+//     height: 50vh;
+//     margin: 5rem auto;
+//     position:relative;
+//     width: 80%;
+
+//     .crear-overlay{
+//         position:absolute;
+//         width: 100%;
+//         height: 100%;
+//         background-color: rgba($color: #0000006e, $alpha: 0.5);
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+        
+        
+//         .crear-subtitulo{
+//             color: $claro;
+//             font-size: 5rem;
+//             font-weight: bolder;
+//             font-family: $fuente_delicius;
+//         }
+//     }
+
+//     .formulario-submit{
+//         margin: 2rem 0;
+
+//         &:hover{
+//             background-color: $secundario;
+//             color: $quinto;
+//             cursor: pointer;
+//         }
+//     }
+// }

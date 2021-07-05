@@ -1,0 +1,38 @@
+
+.hero{
+    background-image: url(/proyecto-utn-Delicius/static/img/7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+
+    .hero-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($color: #0000006e, $alpha: 0.5);
+
+        .hero-texto{
+            position: absolute;
+            color: $claro;
+            right: 10%;
+            top: 25%;
+        }
+
+    }
+
+    .hero-texto_parrafo{
+        font-size: 7rem;
+        font-weight: bolder;
+        width: 70%;
+        .hero-texto_span{
+            color: $secundario;
+        }
+
+    }
+
+
+
+}

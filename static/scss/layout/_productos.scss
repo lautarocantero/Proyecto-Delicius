@@ -1,0 +1,147 @@
+
+.opciones_comida{
+    margin-top: 2rem;
+    .lista-opciones{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        padding: 2rem;
+
+        .link-opcion{
+            background-color: $secundario;
+            border-radius: 1rem;
+            color: $claro;
+            font-size: 3rem;
+            font-family: $fuente_delicius;
+            padding: 1.5rem;
+
+            &:hover{
+                background-color: $quinto;
+            }
+
+        }
+    }
+
+}
+
+
+.productos-expositorio{
+    margin: 5rem;
+    display: flex;
+    column-gap: 5rem;
+
+    .navegador-productos{
+        border: 1px solid $primario;
+        border-radius: 1rem;
+        width: 26%;
+        max-height: 55vh;
+
+        .lista-productos{
+            padding: 0;
+            
+        }
+
+        .item-navegador-productos{
+            margin-top: 2rem;
+        }
+        
+
+        
+
+        .link-productos{
+            display: flex;
+            align-items: center;
+            justify-content:left;
+            .link-hamburguesa{
+                width: 20%;
+            }
+            .link-bebida{
+                width: 20%;
+            }
+            .link-papas{
+                width: 15%;
+                margin-left: 2rem;
+                height: 10vh;
+            }
+            .link-combo{
+                width: 20%;
+                margin-left: 2rem;
+                height: 10vh;
+            }
+            .link-texto{
+                color: $quinto;
+                font-weight: bolder;
+            }
+
+            a{
+                display: flex;
+                align-items: center;
+            }
+
+        }
+
+        .link-productos:hover{
+            padding: 2rem;
+            cursor: pointer;
+            .link-hamburguesa{
+                width: 30%;
+            }
+            .link-bebida{
+                width: 30%;
+            }
+            .link-papas{
+                width: 20%;
+            }
+            .link-texto{
+                color: $primario;
+            }
+        }
+
+    }
+
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    .producto{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem;
+            
+            .producto-informacion{
+                background-color: $secundario;
+                color: $claro;
+            }
+
+            .producto-imagen{
+                width: 35rem;
+                height: 35vh;
+            }
+
+            .producto-nombre{
+                font-weight: 200;
+                font-size: 2rem;
+                font-style: italic;
+                margin: 1rem;
+                text-align: center;
+            }
+
+            .producto-descripcion{
+                text-align: center;
+                font-size: 1.4rem;
+                padding: 1rem;
+            }
+
+            .producto-precio{
+                color: $quinto;
+                font-weight: bolder;
+                text-align: center;
+            }
+
+        }
+
+
+}

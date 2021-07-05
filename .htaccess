@@ -1,0 +1,73 @@
+
+
+RewriteEngine on
+
+            #indice home  
+RewriteRule ^home$ controllers/delicius-home.php
+            #familia
+RewriteRule ^en-familia$ controllers/delicius-familia.php
+            #nosotros
+RewriteRule ^nosotros$ controllers/delicius-nosotros.php
+
+            #expositorios de comida
+
+RewriteRule ^hamburguesas$ controllers/lista_hamburguesas.php
+RewriteRule ^papas$ controllers/lista_papas.php
+RewriteRule ^bebidas$ controllers/lista_bebidas.php
+RewriteRule ^combos$ controllers/lista_combos.php
+
+            #crear comida 
+
+RewriteRule ^nueva-hamburguesa$ controllers/crear_hamburguesas.php
+RewriteRule ^nueva-papa$ controllers/crear_papas.php
+RewriteRule ^nueva-bebida$ controllers/crear_bebidas.php
+RewriteRule ^nuevo-combo$ controllers/crear_combo.php
+
+            #borrar comida 
+
+RewriteRule ^borrar-hamburguesa$ controllers/borrar_hamburguesas.php
+RewriteRule ^borrar-papa$ controllers/borrar_papas.php
+RewriteRule ^borrar-bebida$ controllers/borrar_bebidas.php
+RewriteRule ^borrar-combo$ controllers/borrar_combos.php
+
+            #listado personas
+RewriteRule ^clientes$ controllers/lista_clientes.php
+RewriteRule ^empleados$ controllers/lista_empleados.php
+
+
+            #crear
+RewriteRule  ^nuevo-cliente$ controllers/crear_cliente.php
+RewriteRule  ^nuevo-empleado$ controllers/crear_empleado.php
+
+            #borrar
+RewriteRule  ^eliminar-cliente$ controllers/borrar_clientes.php
+RewriteRule  ^eliminar-empleado$ controllers/borrar_empleados.php
+
+            #iniciar Sesión
+RewriteRule ^iniciar-sesion$ controllers/iniciar-cliente.php
+RewriteRule ^ingresar-trabajo$ controllers/iniciar-Empleado.php
+
+            #cerrar sesion
+RewriteRule ^cerrar-sesion$ controllers/cerrar-sesion.php
+
+
+            #crear pedido
+RewriteRule ^nuevo-pedido$ controllers/crear_pedido.php
+
+            #listado pedidos
+RewriteRule ^pedidos$ controllers/lista_pedidos.php
+RewriteRule ^mis_pedidos$ controllers/lista_pedidos_cliente.php
+
+            #borrar pedidos
+RewriteRule ^borrar-pedido$ controllers/borrar_pedidos.php
+RewriteRule ^borrar-pedido-cliente$ controllers/borrar_pedidos_cliente.php
+
+            #modificarEstado
+RewriteRule ^estado-pedido$ controllers/modificar_pedido.php
+
+
+
+
+
+
+

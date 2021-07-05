@@ -1,0 +1,29 @@
+
+.familia{
+
+    .subtitulo-familia{
+        background-color: $oscuro;
+        color: $cuarternario;
+        font-size: 5rem;
+        font-family: $fuente_delicius;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem;
+    }
+
+    .familia-texto{
+        background-color: $oscuro;
+        border-radius: 1rem;
+        color: $claro;
+        font-weight: $bold;
+        margin: 2rem;
+        padding: 1rem;
+
+        .familia-link{
+            color: $cuarternario;
+        }
+
+    }
+
+
+}

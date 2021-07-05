@@ -1,0 +1,13 @@
+
+
+.boton{
+    background-color: $especial;
+    border-radius: 0.3rem;
+    color: $oscuro;
+    padding: 2rem;
+    transition: padding 0.1s ease-in;
+}
+
+.boton:hover{
+    padding: 3rem;
+}

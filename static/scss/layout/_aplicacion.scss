@@ -1,0 +1,83 @@
+
+.app{
+
+    background-color: $especial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+
+    .app-cuerpo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app-imagen{
+        margin-right: 3rem;
+        padding: 2rem;
+        width: 15%;
+    }
+
+    .app-texto{
+        color: $oscuro;
+        .app-parrafo{
+            font-size: 1.7rem;
+        }
+    }
+
+    .app-boton{
+        background-color: $claro;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-left: 5rem;
+
+        &:hover{
+            background-color: $cuarternario;
+            a {
+                color: $claro;
+            }
+        }
+    }
+
+
+}
+
+.app-links{
+
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+    .links-redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icono{
+            color: $claro;
+            background-color: $oscuro;
+            border-radius: 50%;
+            font-size: 4rem;   
+        }
+    }
+
+    .link-app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .link-imagen{
+            width: 20%;
+        }
+    }
+
+}
+
+.icono:hover{
+    cursor: pointer;
+}
+
+.link-imagen:hover{
+    cursor: pointer;
+}
+   

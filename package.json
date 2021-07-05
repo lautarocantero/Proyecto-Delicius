@@ -1,0 +1,19 @@
+{
+  "name": "delicius",
+  "version": "1.0.0",
+  "description": "proyecto utn delicius",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lautaro",
+  "license": "ISC"
+}
